@@ -1,0 +1,44 @@
+[0.008s] Invoking command in '/home/vishwam/iitb_racecar/build/racecar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar /usr/bin/cmake --build /home/vishwam/iitb_racecar/build/racecar_description -- -j20 -l20
+[0.031s] Invoked command in '/home/vishwam/iitb_racecar/build/racecar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar /usr/bin/cmake --build /home/vishwam/iitb_racecar/build/racecar_description -- -j20 -l20
+[0.070s] Invoking command in '/home/vishwam/iitb_racecar/build/racecar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar /usr/bin/cmake --install /home/vishwam/iitb_racecar/build/racecar_description
+[0.080s] -- Install configuration: ""
+[0.080s] -- Execute custom install script
+[0.081s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/urdf/macros.urdf.xacro
+[0.081s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/urdf/materials.urdf.xacro
+[0.081s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/urdf/racecar.gazebo
+[0.082s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/urdf/racecar.urdf.xacro
+[0.083s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/chassis.STL
+[0.083s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/chassis.dae
+[0.083s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/left_front_wheel.STL
+[0.083s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/left_front_wheel.dae
+[0.083s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/left_rear_wheel.STL
+[0.084s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/left_rear_wheel.dae
+[0.084s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/left_steering_hinge.STL
+[0.084s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/left_steering_hinge.dae
+[0.084s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/right_front_wheel.STL
+[0.084s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/right_front_wheel.dae
+[0.084s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/right_rear_wheel.STL
+[0.085s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/right_rear_wheel.dae
+[0.085s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/right_steering_hinge.STL
+[0.085s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/right_steering_hinge.dae
+[0.086s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/worlds/macros.urdf.xacro
+[0.086s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/worlds/materials.urdf.xacro
+[0.086s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/worlds/racecar.gazebo
+[0.086s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/worlds/racecar.urdf.xacro
+[0.087s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.xml
+[0.087s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/ament_index/resource_index/package_run_dependencies/racecar_description
+[0.087s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/ament_index/resource_index/parent_prefix_path/racecar_description
+[0.088s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/environment/ament_prefix_path.sh
+[0.088s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/environment/ament_prefix_path.dsv
+[0.088s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/environment/path.sh
+[0.088s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/environment/path.dsv
+[0.089s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/local_setup.bash
+[0.089s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/local_setup.sh
+[0.089s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/local_setup.zsh
+[0.089s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/local_setup.dsv
+[0.090s] -- Symlinking: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.dsv
+[0.103s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/ament_index/resource_index/packages/racecar_description
+[0.104s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/cmake/racecar_descriptionConfig.cmake
+[0.104s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/cmake/racecar_descriptionConfig-version.cmake
+[0.104s] -- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.xml
+[0.107s] Invoked command in '/home/vishwam/iitb_racecar/build/racecar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar /usr/bin/cmake --install /home/vishwam/iitb_racecar/build/racecar_description

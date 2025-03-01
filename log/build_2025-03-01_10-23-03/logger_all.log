@@ -1,0 +1,236 @@
+[0.145s] DEBUG:colcon:Command line arguments: ['/home/vishwam/.local/bin/colcon', 'build', '--symlink-install']
+[0.145s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74ff7c15a350>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74ff7c2d7c10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74ff7c2d7c10>>)
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.319s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vishwam/iitb_racecar'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/racecar' with type 'ros.ament_python' and name 'racecar'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_description) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_description) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_description) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_description) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_description) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_description) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_description) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_description) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_description) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/racecar_description' with type 'ros.ament_cmake' and name 'racecar_description'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_plugins) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_plugins) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_plugins) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_plugins) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_plugins) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_plugins) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_plugins) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/racecar_plugins) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/racecar_plugins' with type 'ros.ament_cmake' and name 'racecar_plugins'
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'racecar_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishwam/iitb_racecar/build/racecar_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishwam/iitb_racecar/install/racecar_description', 'merge_install': False, 'path': '/home/vishwam/iitb_racecar/src/racecar_description', 'symlink_install': True, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_plugins' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_plugins' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'racecar_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'racecar_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishwam/iitb_racecar/build/racecar_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishwam/iitb_racecar/install/racecar_plugins', 'merge_install': False, 'path': '/home/vishwam/iitb_racecar/src/racecar_plugins', 'symlink_install': True, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'racecar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'racecar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishwam/iitb_racecar/build/racecar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishwam/iitb_racecar/install/racecar', 'merge_install': False, 'path': '/home/vishwam/iitb_racecar/src/racecar', 'symlink_install': True, 'test_result_base': None}
+[0.365s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.366s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vishwam/iitb_racecar/src/racecar_description' with build type 'ament_cmake'
+[0.366s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vishwam/iitb_racecar/src/racecar_description'
+[0.368s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.368s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.373s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vishwam/iitb_racecar/src/racecar_plugins' with build type 'ament_cmake'
+[0.373s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vishwam/iitb_racecar/src/racecar_plugins'
+[0.373s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishwam/iitb_racecar/build/racecar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar /usr/bin/cmake --build /home/vishwam/iitb_racecar/build/racecar_description -- -j20 -l20
+[0.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishwam/iitb_racecar/build/racecar_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar /usr/bin/cmake --build /home/vishwam/iitb_racecar/build/racecar_plugins -- -j20 -l20
+[0.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishwam/iitb_racecar/build/racecar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar /usr/bin/cmake --build /home/vishwam/iitb_racecar/build/racecar_description -- -j20 -l20
+[0.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishwam/iitb_racecar/build/racecar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar /usr/bin/cmake --install /home/vishwam/iitb_racecar/build/racecar_description
+[0.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar_description)
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishwam/iitb_racecar/build/racecar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar /usr/bin/cmake --install /home/vishwam/iitb_racecar/build/racecar_description
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_description' for CMake module files
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_description' for CMake config files
+[0.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_description', 'cmake_prefix_path')
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/hook/cmake_prefix_path.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/hook/cmake_prefix_path.dsv'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/hook/cmake_prefix_path.sh'
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_description/bin'
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_description/lib/pkgconfig/racecar_description.pc'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_description/lib/python3.10/site-packages'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_description/bin'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.sh'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.bash'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.zsh'
+[0.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishwam/iitb_racecar/install/racecar_description/share/colcon-core/packages/racecar_description)
+[0.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar_description)
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_description' for CMake module files
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_description' for CMake config files
+[0.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_description', 'cmake_prefix_path')
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/hook/cmake_prefix_path.ps1'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/hook/cmake_prefix_path.dsv'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/hook/cmake_prefix_path.sh'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_description/bin'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_description/lib/pkgconfig/racecar_description.pc'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_description/lib/python3.10/site-packages'
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_description/bin'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.ps1'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.dsv'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.sh'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.bash'
+[0.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.zsh'
+[0.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishwam/iitb_racecar/install/racecar_description/share/colcon-core/packages/racecar_description)
+[0.545s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vishwam/iitb_racecar/src/racecar' with build type 'ament_python'
+[0.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar', 'ament_prefix_path')
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/install/racecar/share/racecar/hook/ament_prefix_path.ps1'
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishwam/iitb_racecar/install/racecar/share/racecar/hook/ament_prefix_path.dsv'
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/install/racecar/share/racecar/hook/ament_prefix_path.sh'
+[0.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.929s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vishwam/iitb_racecar/src/racecar'
+[0.929s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.929s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishwam/iitb_racecar/build/racecar': CMAKE_PREFIX_PATH=/home/vishwam/iitb_racecar/install/racecar_description:/home/vishwam/iitb_racecar/install/racecar_plugins PYTHONPATH=/home/vishwam/iitb_racecar/build/racecar/prefix_override:/home/vishwam/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishwam/iitb_racecar/install/racecar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vishwam/iitb_racecar/build/racecar/build --no-deps symlink_data
+[2.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar', 'pythonpath_develop')
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/build/racecar/share/racecar/hook/pythonpath_develop.ps1'
+[2.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishwam/iitb_racecar/build/racecar' returned '0': CMAKE_PREFIX_PATH=/home/vishwam/iitb_racecar/install/racecar_description:/home/vishwam/iitb_racecar/install/racecar_plugins PYTHONPATH=/home/vishwam/iitb_racecar/build/racecar/prefix_override:/home/vishwam/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishwam/iitb_racecar/install/racecar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vishwam/iitb_racecar/build/racecar/build --no-deps symlink_data
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishwam/iitb_racecar/build/racecar/share/racecar/hook/pythonpath_develop.dsv'
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/build/racecar/share/racecar/hook/pythonpath_develop.sh'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar' for CMake module files
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar' for CMake config files
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar/lib'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar/bin'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar/lib/pkgconfig/racecar.pc'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar/lib/python3.10/site-packages'
+[2.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar', 'pythonpath')
+[2.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/install/racecar/share/racecar/hook/pythonpath.ps1'
+[2.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishwam/iitb_racecar/install/racecar/share/racecar/hook/pythonpath.dsv'
+[2.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/install/racecar/share/racecar/hook/pythonpath.sh'
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar/bin'
+[2.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar)
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar/share/racecar/package.ps1'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishwam/iitb_racecar/install/racecar/share/racecar/package.dsv'
+[2.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar/share/racecar/package.sh'
+[2.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar/share/racecar/package.bash'
+[2.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar/share/racecar/package.zsh'
+[2.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishwam/iitb_racecar/install/racecar/share/colcon-core/packages/racecar)
+[12.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishwam/iitb_racecar/build/racecar_plugins' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar /usr/bin/cmake --build /home/vishwam/iitb_racecar/build/racecar_plugins -- -j20 -l20
+[12.774s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar_plugins)
+[12.774s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_plugins' for CMake module files
+[12.775s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_plugins' for CMake config files
+[12.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_plugins', 'cmake_prefix_path')
+[12.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/hook/cmake_prefix_path.ps1'
+[12.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/hook/cmake_prefix_path.dsv'
+[12.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/hook/cmake_prefix_path.sh'
+[12.776s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_plugins/lib'
+[12.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_plugins', 'ld_library_path_lib')
+[12.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/hook/ld_library_path_lib.ps1'
+[12.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/hook/ld_library_path_lib.dsv'
+[12.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/hook/ld_library_path_lib.sh'
+[12.777s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_plugins/bin'
+[12.778s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_plugins/lib/pkgconfig/racecar_plugins.pc'
+[12.778s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_plugins/lib/python3.10/site-packages'
+[12.778s] Level 1:colcon.colcon_core.environment:checking '/home/vishwam/iitb_racecar/install/racecar_plugins/bin'
+[12.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/package.ps1'
+[12.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/package.dsv'
+[12.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/package.sh'
+[12.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/package.bash'
+[12.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/package.zsh'
+[12.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishwam/iitb_racecar/install/racecar_plugins/share/colcon-core/packages/racecar_plugins)
+[12.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[12.791s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.798s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.798s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.798s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.816s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vishwam/iitb_racecar/install/local_setup.ps1'
+[12.818s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vishwam/iitb_racecar/install/_local_setup_util_ps1.py'
+[12.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vishwam/iitb_racecar/install/setup.ps1'
+[12.820s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vishwam/iitb_racecar/install/local_setup.sh'
+[12.820s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vishwam/iitb_racecar/install/_local_setup_util_sh.py'
+[12.821s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vishwam/iitb_racecar/install/setup.sh'
+[12.822s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vishwam/iitb_racecar/install/local_setup.bash'
+[12.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vishwam/iitb_racecar/install/setup.bash'
+[12.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vishwam/iitb_racecar/install/local_setup.zsh'
+[12.824s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vishwam/iitb_racecar/install/setup.zsh'

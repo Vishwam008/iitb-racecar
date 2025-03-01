@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing racecar.egg-info/PKG-INFO
+writing dependency_links to racecar.egg-info/dependency_links.txt
+writing entry points to racecar.egg-info/entry_points.txt
+writing requirements to racecar.egg-info/requires.txt
+writing top-level names to racecar.egg-info/top_level.txt
+reading manifest file 'racecar.egg-info/SOURCES.txt'
+writing manifest file 'racecar.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vishwam/iitb_racecar/install/racecar/lib/python3.10/site-packages/racecar.egg-link (link to .)
+Installing control script to /home/vishwam/iitb_racecar/install/racecar/lib/racecar
+Installing pos script to /home/vishwam/iitb_racecar/install/racecar/lib/racecar
+
+Installed /home/vishwam/iitb_racecar/build/racecar
+running symlink_data

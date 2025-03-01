@@ -1,0 +1,298 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (racecar_description) JobQueued: {'identifier': 'racecar_description', 'dependencies': OrderedDict()}
+[0.000336] (racecar_plugins) JobQueued: {'identifier': 'racecar_plugins', 'dependencies': OrderedDict()}
+[0.000362] (racecar) JobQueued: {'identifier': 'racecar', 'dependencies': OrderedDict([('racecar_description', '/home/vishwam/iitb_racecar/install/racecar_description')])}
+[0.000942] (racecar_description) JobStarted: {'identifier': 'racecar_description'}
+[0.009170] (racecar_plugins) JobStarted: {'identifier': 'racecar_plugins'}
+[0.015601] (racecar_description) JobProgress: {'identifier': 'racecar_description', 'progress': 'cmake'}
+[0.017576] (racecar_description) JobProgress: {'identifier': 'racecar_description', 'progress': 'build'}
+[0.017671] (racecar_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vishwam/iitb_racecar/build/racecar_description', '--', '-j20', '-l20'], 'cwd': '/home/vishwam/iitb_racecar/build/racecar_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vishwam'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/vishwam/iitb_racecar/install/racecar_plugins/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/vishwam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2116'), ('SYSTEMD_EXEC_PID', '2679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('IPGHOME', '/opt/ipg'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3184'), ('COLCON_PREFIX_PATH', '/home/vishwam/iitb_racecar/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vishwam'), ('JOURNAL_STREAM', '8:48183'), ('EUFS_MASTER', '/home/vishwam/IITBDV-Formula-Simulator/src/eufs_sim'), ('_', '/home/vishwam/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vishwam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/opt/ipg/bin:/home/vishwam/.local/bin:/usr/local/cuda/bin:/home/vishwam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vishwam-Dell-G15-5530:@/tmp/.ICE-unix/2518,unix/vishwam-Dell-G15-5530:/tmp/.ICE-unix/2518'), ('INVOCATION_ID', 'd43c9f5f666d4c269b42fbd1a13eafa9'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar_plugins:/home/vishwam/iitb_racecar/install/racecar:/home/vishwam/iitb_racecar/install/racecar_description'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:960379a7-9450-4c28-8935-0d525244222e'), ('QT_ACCESSIBILITY', '1'), ('IITBDV_MASTER', '/home/vishwam/iitb-racing-ros2'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vishwam/iitb_racecar/build/racecar_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/vishwam/iitb_racecar/build/racecar:/home/vishwam/iitb_racecar/install/racecar/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vishwam/iitb_racecar/install/racecar_plugins:/home/vishwam/iitb_racecar/install/racecar_description:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar')]), 'shell': False}
+[0.024116] (racecar_plugins) JobProgress: {'identifier': 'racecar_plugins', 'progress': 'cmake'}
+[0.025436] (racecar_plugins) JobProgress: {'identifier': 'racecar_plugins', 'progress': 'build'}
+[0.026096] (racecar_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vishwam/iitb_racecar/build/racecar_plugins', '--', '-j20', '-l20'], 'cwd': '/home/vishwam/iitb_racecar/build/racecar_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vishwam'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/vishwam/iitb_racecar/install/racecar_plugins/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/vishwam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2116'), ('SYSTEMD_EXEC_PID', '2679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('IPGHOME', '/opt/ipg'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3184'), ('COLCON_PREFIX_PATH', '/home/vishwam/iitb_racecar/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vishwam'), ('JOURNAL_STREAM', '8:48183'), ('EUFS_MASTER', '/home/vishwam/IITBDV-Formula-Simulator/src/eufs_sim'), ('_', '/home/vishwam/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vishwam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/opt/ipg/bin:/home/vishwam/.local/bin:/usr/local/cuda/bin:/home/vishwam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vishwam-Dell-G15-5530:@/tmp/.ICE-unix/2518,unix/vishwam-Dell-G15-5530:/tmp/.ICE-unix/2518'), ('INVOCATION_ID', 'd43c9f5f666d4c269b42fbd1a13eafa9'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar_plugins:/home/vishwam/iitb_racecar/install/racecar:/home/vishwam/iitb_racecar/install/racecar_description'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:960379a7-9450-4c28-8935-0d525244222e'), ('QT_ACCESSIBILITY', '1'), ('IITBDV_MASTER', '/home/vishwam/iitb-racing-ros2'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vishwam/iitb_racecar/build/racecar_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/vishwam/iitb_racecar/build/racecar:/home/vishwam/iitb_racecar/install/racecar/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vishwam/iitb_racecar/install/racecar_plugins:/home/vishwam/iitb_racecar/install/racecar_description:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar')]), 'shell': False}
+[0.074314] (racecar_description) CommandEnded: {'returncode': 0}
+[0.099621] (-) TimerEvent: {}
+[0.104867] (racecar_description) JobProgress: {'identifier': 'racecar_description', 'progress': 'install'}
+[0.106750] (racecar_plugins) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target racecar_plugin\x1b[0m\n'}
+[0.116665] (racecar_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vishwam/iitb_racecar/build/racecar_description'], 'cwd': '/home/vishwam/iitb_racecar/build/racecar_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vishwam'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/vishwam/iitb_racecar/install/racecar_plugins/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/vishwam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2116'), ('SYSTEMD_EXEC_PID', '2679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('IPGHOME', '/opt/ipg'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3184'), ('COLCON_PREFIX_PATH', '/home/vishwam/iitb_racecar/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vishwam'), ('JOURNAL_STREAM', '8:48183'), ('EUFS_MASTER', '/home/vishwam/IITBDV-Formula-Simulator/src/eufs_sim'), ('_', '/home/vishwam/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vishwam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/opt/ipg/bin:/home/vishwam/.local/bin:/usr/local/cuda/bin:/home/vishwam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vishwam-Dell-G15-5530:@/tmp/.ICE-unix/2518,unix/vishwam-Dell-G15-5530:/tmp/.ICE-unix/2518'), ('INVOCATION_ID', 'd43c9f5f666d4c269b42fbd1a13eafa9'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar_plugins:/home/vishwam/iitb_racecar/install/racecar:/home/vishwam/iitb_racecar/install/racecar_description'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:960379a7-9450-4c28-8935-0d525244222e'), ('QT_ACCESSIBILITY', '1'), ('IITBDV_MASTER', '/home/vishwam/iitb-racing-ros2'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vishwam/iitb_racecar/build/racecar_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/vishwam/iitb_racecar/build/racecar:/home/vishwam/iitb_racecar/install/racecar/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vishwam/iitb_racecar/install/racecar_plugins:/home/vishwam/iitb_racecar/install/racecar_description:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar')]), 'shell': False}
+[0.128649] (racecar_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.129475] (racecar_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.130051] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/urdf/macros.urdf.xacro\n'}
+[0.130306] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/urdf/materials.urdf.xacro\n'}
+[0.130452] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/urdf/racecar.gazebo\n'}
+[0.130599] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/urdf/racecar.urdf.xacro\n'}
+[0.130994] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/chassis.STL\n'}
+[0.131189] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/chassis.dae\n'}
+[0.131333] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/left_front_wheel.STL\n'}
+[0.131657] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/left_front_wheel.dae\n'}
+[0.131874] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/left_rear_wheel.STL\n'}
+[0.132058] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/left_rear_wheel.dae\n'}
+[0.132224] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/left_steering_hinge.STL\n'}
+[0.132351] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/left_steering_hinge.dae\n'}
+[0.132474] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/right_front_wheel.STL\n'}
+[0.132597] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/right_front_wheel.dae\n'}
+[0.132727] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/right_rear_wheel.STL\n'}
+[0.132918] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/right_rear_wheel.dae\n'}
+[0.133076] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/right_steering_hinge.STL\n'}
+[0.133230] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/meshes/right_steering_hinge.dae\n'}
+[0.133401] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/worlds/macros.urdf.xacro\n'}
+[0.133532] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/worlds/materials.urdf.xacro\n'}
+[0.133687] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/worlds/racecar.gazebo\n'}
+[0.133823] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/worlds/racecar.urdf.xacro\n'}
+[0.134019] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.xml\n'}
+[0.134226] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/ament_index/resource_index/package_run_dependencies/racecar_description\n'}
+[0.134391] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/ament_index/resource_index/parent_prefix_path/racecar_description\n'}
+[0.134538] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/environment/ament_prefix_path.sh\n'}
+[0.134719] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/environment/ament_prefix_path.dsv\n'}
+[0.134874] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/environment/path.sh\n'}
+[0.135031] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/environment/path.dsv\n'}
+[0.135152] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/local_setup.bash\n'}
+[0.135274] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/local_setup.sh\n'}
+[0.135418] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/local_setup.zsh\n'}
+[0.135543] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/local_setup.dsv\n'}
+[0.135663] (racecar_description) StdoutLine: {'line': b'-- Symlinking: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.dsv\n'}
+[0.147938] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/ament_index/resource_index/packages/racecar_description\n'}
+[0.148481] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/cmake/racecar_descriptionConfig.cmake\n'}
+[0.148639] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/cmake/racecar_descriptionConfig-version.cmake\n'}
+[0.148773] (racecar_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_description/share/racecar_description/package.xml\n'}
+[0.151156] (racecar_description) CommandEnded: {'returncode': 0}
+[0.164983] (racecar_plugins) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/racecar_plugin.dir/src/racecar_plugin.cpp.o\x1b[0m\n'}
+[0.199786] (-) TimerEvent: {}
+[0.211836] (racecar_description) JobEnded: {'identifier': 'racecar_description', 'rc': 0}
+[0.212956] (racecar) JobStarted: {'identifier': 'racecar'}
+[0.299990] (-) TimerEvent: {}
+[0.400351] (-) TimerEvent: {}
+[0.500668] (-) TimerEvent: {}
+[0.601047] (-) TimerEvent: {}
+[0.701399] (-) TimerEvent: {}
+[0.801834] (-) TimerEvent: {}
+[0.902213] (-) TimerEvent: {}
+[1.002656] (-) TimerEvent: {}
+[1.103023] (-) TimerEvent: {}
+[1.203453] (-) TimerEvent: {}
+[1.296719] (racecar) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/vishwam/iitb_racecar/build/racecar/build', '--no-deps', 'symlink_data'], 'cwd': '/home/vishwam/iitb_racecar/build/racecar', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'vishwam', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/vishwam/iitb_racecar/install/racecar_plugins/lib:/usr/local/cuda/lib64:', 'HOME': '/home/vishwam', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2116', 'SYSTEMD_EXEC_PID': '2679', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'IPGHOME': '/opt/ipg', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3184', 'COLCON_PREFIX_PATH': '/home/vishwam/iitb_racecar/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'vishwam', 'JOURNAL_STREAM': '8:48183', 'EUFS_MASTER': '/home/vishwam/IITBDV-Formula-Simulator/src/eufs_sim', '_': '/home/vishwam/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vishwam', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/opt/ipg/bin:/home/vishwam/.local/bin:/usr/local/cuda/bin:/home/vishwam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vishwam-Dell-G15-5530:@/tmp/.ICE-unix/2518,unix/vishwam-Dell-G15-5530:/tmp/.ICE-unix/2518', 'INVOCATION_ID': 'd43c9f5f666d4c269b42fbd1a13eafa9', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar_plugins:/home/vishwam/iitb_racecar/install/racecar:/home/vishwam/iitb_racecar/install/racecar_description', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:960379a7-9450-4c28-8935-0d525244222e', 'QT_ACCESSIBILITY': '1', 'IITBDV_MASTER': '/home/vishwam/iitb-racing-ros2', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vishwam/iitb_racecar/build/racecar', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vishwam/iitb_racecar/build/racecar/prefix_override:/home/vishwam/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishwam/iitb_racecar/install/racecar/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/vishwam/iitb_racecar/build/racecar:/home/vishwam/iitb_racecar/install/racecar/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vishwam/iitb_racecar/install/racecar_description:/home/vishwam/iitb_racecar/install/racecar_plugins'}, 'shell': False}
+[1.303531] (-) TimerEvent: {}
+[1.403858] (-) TimerEvent: {}
+[1.504254] (-) TimerEvent: {}
+[1.604667] (-) TimerEvent: {}
+[1.678393] (racecar) StdoutLine: {'line': b'running develop\n'}
+[1.678908] (racecar) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.679096] (racecar) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.704839] (-) TimerEvent: {}
+[1.805226] (-) TimerEvent: {}
+[1.905637] (-) TimerEvent: {}
+[1.952923] (racecar) StdoutLine: {'line': b'running egg_info\n'}
+[1.953200] (racecar) StdoutLine: {'line': b'writing racecar.egg-info/PKG-INFO\n'}
+[1.953517] (racecar) StdoutLine: {'line': b'writing dependency_links to racecar.egg-info/dependency_links.txt\n'}
+[1.953744] (racecar) StdoutLine: {'line': b'writing entry points to racecar.egg-info/entry_points.txt\n'}
+[1.954156] (racecar) StdoutLine: {'line': b'writing requirements to racecar.egg-info/requires.txt\n'}
+[1.954226] (racecar) StdoutLine: {'line': b'writing top-level names to racecar.egg-info/top_level.txt\n'}
+[1.956483] (racecar) StdoutLine: {'line': b"reading manifest file 'racecar.egg-info/SOURCES.txt'\n"}
+[1.957363] (racecar) StdoutLine: {'line': b"writing manifest file 'racecar.egg-info/SOURCES.txt'\n"}
+[2.005819] (-) TimerEvent: {}
+[2.022185] (racecar) StdoutLine: {'line': b'running build_ext\n'}
+[2.022515] (racecar) StdoutLine: {'line': b'Creating /home/vishwam/iitb_racecar/install/racecar/lib/python3.10/site-packages/racecar.egg-link (link to .)\n'}
+[2.023801] (racecar) StdoutLine: {'line': b'Installing control script to /home/vishwam/iitb_racecar/install/racecar/lib/racecar\n'}
+[2.024225] (racecar) StdoutLine: {'line': b'Installing pos script to /home/vishwam/iitb_racecar/install/racecar/lib/racecar\n'}
+[2.024422] (racecar) StdoutLine: {'line': b'\n'}
+[2.024511] (racecar) StdoutLine: {'line': b'Installed /home/vishwam/iitb_racecar/build/racecar\n'}
+[2.024585] (racecar) StdoutLine: {'line': b'running symlink_data\n'}
+[2.073491] (racecar) CommandEnded: {'returncode': 0}
+[2.083179] (racecar) JobEnded: {'identifier': 'racecar', 'rc': 0}
+[2.105974] (-) TimerEvent: {}
+[2.206389] (-) TimerEvent: {}
+[2.306767] (-) TimerEvent: {}
+[2.407168] (-) TimerEvent: {}
+[2.507540] (-) TimerEvent: {}
+[2.607853] (-) TimerEvent: {}
+[2.708238] (-) TimerEvent: {}
+[2.808643] (-) TimerEvent: {}
+[2.909077] (-) TimerEvent: {}
+[3.009476] (-) TimerEvent: {}
+[3.109900] (-) TimerEvent: {}
+[3.210216] (-) TimerEvent: {}
+[3.310600] (-) TimerEvent: {}
+[3.410942] (-) TimerEvent: {}
+[3.511416] (-) TimerEvent: {}
+[3.611728] (-) TimerEvent: {}
+[3.712308] (-) TimerEvent: {}
+[3.812635] (-) TimerEvent: {}
+[3.913014] (-) TimerEvent: {}
+[4.013387] (-) TimerEvent: {}
+[4.113749] (-) TimerEvent: {}
+[4.214086] (-) TimerEvent: {}
+[4.314481] (-) TimerEvent: {}
+[4.414897] (-) TimerEvent: {}
+[4.515265] (-) TimerEvent: {}
+[4.615736] (-) TimerEvent: {}
+[4.716161] (-) TimerEvent: {}
+[4.816621] (-) TimerEvent: {}
+[4.917089] (-) TimerEvent: {}
+[5.017579] (-) TimerEvent: {}
+[5.118067] (-) TimerEvent: {}
+[5.218652] (-) TimerEvent: {}
+[5.319001] (-) TimerEvent: {}
+[5.419342] (-) TimerEvent: {}
+[5.519690] (-) TimerEvent: {}
+[5.620031] (-) TimerEvent: {}
+[5.720347] (-) TimerEvent: {}
+[5.820678] (-) TimerEvent: {}
+[5.920989] (-) TimerEvent: {}
+[6.021362] (-) TimerEvent: {}
+[6.121736] (-) TimerEvent: {}
+[6.222123] (-) TimerEvent: {}
+[6.322492] (-) TimerEvent: {}
+[6.422815] (-) TimerEvent: {}
+[6.523220] (-) TimerEvent: {}
+[6.623597] (-) TimerEvent: {}
+[6.723932] (-) TimerEvent: {}
+[6.824286] (-) TimerEvent: {}
+[6.924597] (-) TimerEvent: {}
+[7.024883] (-) TimerEvent: {}
+[7.125202] (-) TimerEvent: {}
+[7.225502] (-) TimerEvent: {}
+[7.325914] (-) TimerEvent: {}
+[7.426240] (-) TimerEvent: {}
+[7.526600] (-) TimerEvent: {}
+[7.626942] (-) TimerEvent: {}
+[7.727318] (-) TimerEvent: {}
+[7.827710] (-) TimerEvent: {}
+[7.928088] (-) TimerEvent: {}
+[8.028457] (-) TimerEvent: {}
+[8.128789] (-) TimerEvent: {}
+[8.229183] (-) TimerEvent: {}
+[8.329599] (-) TimerEvent: {}
+[8.429999] (-) TimerEvent: {}
+[8.530379] (-) TimerEvent: {}
+[8.630676] (-) TimerEvent: {}
+[8.731044] (-) TimerEvent: {}
+[8.831400] (-) TimerEvent: {}
+[8.931672] (-) TimerEvent: {}
+[9.032042] (-) TimerEvent: {}
+[9.132351] (-) TimerEvent: {}
+[9.232687] (-) TimerEvent: {}
+[9.333016] (-) TimerEvent: {}
+[9.433425] (-) TimerEvent: {}
+[9.533850] (-) TimerEvent: {}
+[9.634295] (-) TimerEvent: {}
+[9.734803] (-) TimerEvent: {}
+[9.835183] (-) TimerEvent: {}
+[9.935556] (-) TimerEvent: {}
+[10.035921] (-) TimerEvent: {}
+[10.136312] (-) TimerEvent: {}
+[10.236698] (-) TimerEvent: {}
+[10.337083] (-) TimerEvent: {}
+[10.437441] (-) TimerEvent: {}
+[10.537800] (-) TimerEvent: {}
+[10.638199] (-) TimerEvent: {}
+[10.738581] (-) TimerEvent: {}
+[10.838981] (-) TimerEvent: {}
+[10.875085] (racecar_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:2\x1b[m\x1b[K:\n'}
+[10.875311] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/include/racecar_plugins/racecar_plugin.hpp:41:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[Kgazebo::RacecarPlugin::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KpublishOdom\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.875393] (racecar_plugins) StderrLine: {'line': b'   41 |         void \x1b[01;31m\x1b[KRacecarPlugin\x1b[m\x1b[K::publishOdom();\n'}
+[10.875453] (racecar_plugins) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.875507] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/include/racecar_plugins/racecar_plugin.hpp:42:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[Kgazebo::RacecarPlugin::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KToQuaternion\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.875564] (racecar_plugins) StderrLine: {'line': b'   42 |         std::vector<double> \x1b[01;31m\x1b[KRacecarPlugin\x1b[m\x1b[K::ToQuaternion(std::vector<double> &euler);\n'}
+[10.875614] (racecar_plugins) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.909384] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::RacecarPlugin::update()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.909601] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:36:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.909669] (racecar_plugins) StderrLine: {'line': b'   36 |         _model->SetWorldPose(ignition::math::Pose3d(\x1b[01;31m\x1b[Kx\x1b[m\x1b[K+0.0001, y-0.0001, z, 0.0, 0.0, 0.0));\n'}
+[10.909726] (racecar_plugins) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.924592] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:36:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kyn\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.924753] (racecar_plugins) StderrLine: {'line': b'   36 |         _model->SetWorldPose(ignition::math::Pose3d(x+0.0001, \x1b[01;31m\x1b[Ky\x1b[m\x1b[K-0.0001, z, 0.0, 0.0, 0.0));\n'}
+[10.924818] (racecar_plugins) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.924873] (racecar_plugins) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[Kyn\x1b[m\x1b[K\n'}
+[10.938927] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:36:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgz\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.939073] (-) TimerEvent: {}
+[10.939178] (racecar_plugins) StderrLine: {'line': b'   36 |         _model->SetWorldPose(ignition::math::Pose3d(x+0.0001, y-0.0001, \x1b[01;31m\x1b[Kz\x1b[m\x1b[K, 0.0, 0.0, 0.0));\n'}
+[10.939246] (racecar_plugins) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.939301] (racecar_plugins) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kgz\x1b[m\x1b[K\n'}
+[10.957192] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::RacecarPlugin::onCmd(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.957348] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:49:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_acc\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.957410] (racecar_plugins) StderrLine: {'line': b'   49 |         \x1b[01;31m\x1b[K_acc\x1b[m\x1b[K = msg->linear.x*2;\n'}
+[10.957463] (racecar_plugins) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.974078] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:50:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_steer\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.974257] (racecar_plugins) StderrLine: {'line': b'   50 |         \x1b[01;31m\x1b[K_steer\x1b[m\x1b[K = msg->angular.z;\n'}
+[10.974327] (racecar_plugins) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.974497] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::RacecarPlugin::publishOdom()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.974557] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:60:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K_offset\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.974617] (racecar_plugins) StderrLine: {'line': b'   60 |         std::vector<double> euler \x1b[01;31m\x1b[K_offset\x1b[m\x1b[K.Rot().Yaw();\n'}
+[10.974666] (racecar_plugins) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.991465] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:61:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Keuler\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.991651] (racecar_plugins) StderrLine: {'line': b'   61 |         std::vector<double> quat = ToQuaternion(\x1b[01;31m\x1b[Keuler\x1b[m\x1b[K);\n'}
+[10.991728] (racecar_plugins) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.992001] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:67:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::physics::Model\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KGetWorldLinearVel\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KWorldLinearVel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.992077] (racecar_plugins) StderrLine: {'line': b'   67 |         ignition::math::Vector3 _linear_vel = _model->\x1b[01;31m\x1b[KGetWorldLinearVel\x1b[m\x1b[K();\n'}
+[10.992134] (racecar_plugins) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.992186] (racecar_plugins) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[KWorldLinearVel\x1b[m\x1b[K\n'}
+[10.992240] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:72:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::physics::Model\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KGetWorldAngularVel\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KWorldAngularVel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.992293] (racecar_plugins) StderrLine: {'line': b'   72 |         ignition::math::Vector3 _angular_vel = _model->\x1b[01;31m\x1b[KGetWorldAngularVel\x1b[m\x1b[K();\n'}
+[10.992341] (racecar_plugins) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.992389] (racecar_plugins) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[KWorldAngularVel\x1b[m\x1b[K\n'}
+[11.039274] (-) TimerEvent: {}
+[11.139668] (-) TimerEvent: {}
+[11.240050] (-) TimerEvent: {}
+[11.340441] (-) TimerEvent: {}
+[11.440825] (-) TimerEvent: {}
+[11.541220] (-) TimerEvent: {}
+[11.641632] (-) TimerEvent: {}
+[11.742015] (-) TimerEvent: {}
+[11.842383] (-) TimerEvent: {}
+[11.942696] (-) TimerEvent: {}
+[12.043094] (-) TimerEvent: {}
+[12.126031] (racecar_plugins) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:32\x1b[m\x1b[K,\n'}
+[12.126251] (racecar_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29\x1b[m\x1b[K,\n'}
+[12.126313] (racecar_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.126379] (racecar_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.126425] (racecar_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.126482] (racecar_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.126535] (racecar_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.126581] (racecar_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.126626] (racecar_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.126672] (racecar_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.126718] (racecar_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/include/racecar_plugins/racecar_plugin.hpp:4\x1b[m\x1b[K,\n'}
+[12.126765] (racecar_plugins) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:2\x1b[m\x1b[K:\n'}
+[12.126808] (racecar_plugins) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (gazebo::RacecarPlugin::*(gazebo::RacecarPlugin*, std::_Placeholder<1>))(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>; MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.126858] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::RacecarPlugin::*(gazebo::RacecarPlugin*, std::_Placeholder<1>))(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = geometry_msgs::msg::Twist_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.126922] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::RacecarPlugin::*(gazebo::RacecarPlugin*, std::_Placeholder<1>))(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = geometry_msgs::msg::Twist_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.126976] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::RacecarPlugin::*(gazebo::RacecarPlugin*, std::_Placeholder<1>))(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.127024] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::RacecarPlugin::*(gazebo::RacecarPlugin*, std::_Placeholder<1>))(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.127075] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vishwam/iitb_racecar/src/racecar_plugins/src/racecar_plugin.cpp:27:76:\x1b[m\x1b[K   required from here\n'}
+[12.127118] (racecar_plugins) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set_deprecated(std::function<void(std::shared_ptr<_Yp>)>) [with SetT = geometry_msgs::msg::Twist_<std::allocator<void> >; MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n"}
+[12.127171] (racecar_plugins) StderrLine: {'line': b'  391 |       \x1b[01;35m\x1b[Kset_deprecated(static_cast<typename scbth::callback_type>(callback))\x1b[m\x1b[K;\n'}
+[12.127221] (racecar_plugins) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.127263] (racecar_plugins) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:408:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.127306] (racecar_plugins) StderrLine: {'line': b'  408 |   \x1b[01;36m\x1b[Kset_deprecated\x1b[m\x1b[K(std::function<void(std::shared_ptr<SetT>)> callback)\n'}
+[12.127348] (racecar_plugins) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.143244] (-) TimerEvent: {}
+[12.243580] (-) TimerEvent: {}
+[12.343969] (-) TimerEvent: {}
+[12.444347] (-) TimerEvent: {}
+[12.544751] (-) TimerEvent: {}
+[12.645134] (-) TimerEvent: {}
+[12.745499] (-) TimerEvent: {}
+[12.845886] (-) TimerEvent: {}
+[12.946282] (-) TimerEvent: {}
+[13.046686] (-) TimerEvent: {}
+[13.147103] (-) TimerEvent: {}
+[13.247475] (-) TimerEvent: {}
+[13.347852] (-) TimerEvent: {}
+[13.448242] (-) TimerEvent: {}
+[13.548622] (-) TimerEvent: {}
+[13.649051] (-) TimerEvent: {}
+[13.749452] (-) TimerEvent: {}
+[13.849852] (-) TimerEvent: {}
+[13.950239] (-) TimerEvent: {}
+[14.050647] (-) TimerEvent: {}
+[14.151048] (-) TimerEvent: {}
+[14.251431] (-) TimerEvent: {}
+[14.351842] (-) TimerEvent: {}
+[14.452238] (-) TimerEvent: {}
+[14.552651] (-) TimerEvent: {}
+[14.626270] (racecar_plugins) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/racecar_plugin.dir/build.make:76: CMakeFiles/racecar_plugin.dir/src/racecar_plugin.cpp.o] Error 1\n'}
+[14.626746] (racecar_plugins) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/racecar_plugin.dir/all] Error 2\n'}
+[14.627067] (racecar_plugins) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.629857] (racecar_plugins) CommandEnded: {'returncode': 2}
+[14.652919] (-) TimerEvent: {}
+[14.669114] (racecar_plugins) JobEnded: {'identifier': 'racecar_plugins', 'rc': 2}
+[14.679849] (-) EventReactorShutdown: {}

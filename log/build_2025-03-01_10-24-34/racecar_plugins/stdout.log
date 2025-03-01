@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target racecar_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/racecar_plugin.dir/src/racecar_plugin.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libracecar_plugin.so[0m
+[100%] Built target racecar_plugin
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/environment/library_path.sh
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/environment/library_path.dsv
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/lib/libracecar_plugin.so
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/ament_index/resource_index/package_run_dependencies/racecar_plugins
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/ament_index/resource_index/parent_prefix_path/racecar_plugins
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/environment/path.sh
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/environment/path.dsv
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/local_setup.bash
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/local_setup.sh
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/local_setup.zsh
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/local_setup.dsv
+-- Symlinking: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/package.dsv
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/ament_index/resource_index/packages/racecar_plugins
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/cmake/racecar_pluginsConfig.cmake
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/cmake/racecar_pluginsConfig-version.cmake
+-- Up-to-date symlink: /home/vishwam/iitb_racecar/install/racecar_plugins/share/racecar_plugins/package.xml

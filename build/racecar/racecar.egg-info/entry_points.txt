@@ -1,0 +1,4 @@
+[console_scripts]
+control = racecar.control:main
+pos = racecar.pos:main
+

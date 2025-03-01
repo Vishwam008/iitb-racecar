@@ -1,0 +1,20 @@
+[0.597s] Invoking command in '/home/vishwam/iitb_racecar/build/racecar': CMAKE_PREFIX_PATH=/home/vishwam/iitb_racecar/install/racecar_description:/home/vishwam/iitb_racecar/install/racecar_plugins PYTHONPATH=/home/vishwam/iitb_racecar/build/racecar/prefix_override:/home/vishwam/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishwam/iitb_racecar/install/racecar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vishwam/iitb_racecar/build/racecar/build --no-deps symlink_data
+[0.828s] running develop
+[0.828s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.828s]   warnings.warn(
+[0.937s] running egg_info
+[0.937s] writing racecar.egg-info/PKG-INFO
+[0.937s] writing dependency_links to racecar.egg-info/dependency_links.txt
+[0.937s] writing entry points to racecar.egg-info/entry_points.txt
+[0.937s] writing requirements to racecar.egg-info/requires.txt
+[0.937s] writing top-level names to racecar.egg-info/top_level.txt
+[0.938s] reading manifest file 'racecar.egg-info/SOURCES.txt'
+[0.939s] writing manifest file 'racecar.egg-info/SOURCES.txt'
+[0.961s] running build_ext
+[0.962s] Creating /home/vishwam/iitb_racecar/install/racecar/lib/python3.10/site-packages/racecar.egg-link (link to .)
+[0.962s] Installing control script to /home/vishwam/iitb_racecar/install/racecar/lib/racecar
+[0.962s] Installing pos script to /home/vishwam/iitb_racecar/install/racecar/lib/racecar
+[0.962s] 
+[0.962s] Installed /home/vishwam/iitb_racecar/build/racecar
+[0.962s] running symlink_data
+[0.983s] Invoked command in '/home/vishwam/iitb_racecar/build/racecar' returned '0': CMAKE_PREFIX_PATH=/home/vishwam/iitb_racecar/install/racecar_description:/home/vishwam/iitb_racecar/install/racecar_plugins PYTHONPATH=/home/vishwam/iitb_racecar/build/racecar/prefix_override:/home/vishwam/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishwam/iitb_racecar/install/racecar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vishwam/iitb_racecar/build/racecar/build --no-deps symlink_data
