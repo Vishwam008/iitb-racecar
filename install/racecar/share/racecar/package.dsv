@@ -1,9 +1,0 @@
-source;share/racecar/hook/pythonpath.ps1
-source;share/racecar/hook/pythonpath.dsv
-source;share/racecar/hook/pythonpath.sh
-source;share/racecar/hook/ament_prefix_path.ps1
-source;share/racecar/hook/ament_prefix_path.dsv
-source;share/racecar/hook/ament_prefix_path.sh
-source;../../build/racecar/share/racecar/hook/pythonpath_develop.ps1
-source;../../build/racecar/share/racecar/hook/pythonpath_develop.dsv
-source;../../build/racecar/share/racecar/hook/pythonpath_develop.sh

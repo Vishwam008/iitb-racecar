@@ -1,2 +1,0 @@
-Invoking command in '/home/vishwam/iitb_racecar/build/racecar_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar /usr/bin/cmake --build /home/vishwam/iitb_racecar/build/racecar_plugins -- -j20 -l20
-Invoked command in '/home/vishwam/iitb_racecar/build/racecar_plugins' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vishwam/iitb_racecar/install/racecar /usr/bin/cmake --build /home/vishwam/iitb_racecar/build/racecar_plugins -- -j20 -l20
